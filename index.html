@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Чернівці з перших вуст</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Onest:wght@300;400;500;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+:root{
+  --ground:#F2F4F1; --raise:#FBFCFA; --sunk:#E8EBE7;
+  --ink:#14201C; --ink-soft:#5A6A62; --ink-mute:#87978E;
+  --accent:#2F5D4A; --accent-weak:#DFE9E3;
+  --warn:#8A6A1F; --warn-weak:#F2EAD6;
+  --crit:#9C4B2F; --crit-weak:#F5E5DE;
+  --rule:#D5DAD3; --rule-strong:#B9C2BB;
+  --display:"Unbounded","Trebuchet MS",sans-serif;
+  --body:"Onest","Segoe UI",system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0F1513; --raise:#18211D; --sunk:#131A17;
+  --ink:#E6EDE8; --ink-soft:#9DADA4; --ink-mute:#71827A;
+  --accent:#7FC0A3; --accent-weak:#1C2E26;
+  --warn:#D6B15E; --warn-weak:#2B2618;
+  --crit:#DE8A6C; --crit-weak:#2E1E19;
+  --rule:#25312B; --rule-strong:#36463E;
+}}
+:root[data-theme="dark"]{
+  --ground:#0F1513; --raise:#18211D; --sunk:#131A17;
+  --ink:#E6EDE8; --ink-soft:#9DADA4; --ink-mute:#71827A;
+  --accent:#7FC0A3; --accent-weak:#1C2E26;
+  --warn:#D6B15E; --warn-weak:#2B2618;
+  --crit:#DE8A6C; --crit-weak:#2E1E19;
+  --rule:#25312B; --rule-strong:#36463E;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--body);line-height:1.55;
+  margin:0;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1140px;margin:0 auto;padding-inline:20px}
+
+header{border-bottom:1px solid var(--rule);background:var(--raise)}
+.hd{padding-block:36px 26px;display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;
+  align-items:flex-end}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(26px,4.4vw,42px);line-height:1.03;
+  letter-spacing:-.02em;margin:0;max-width:13ch;text-wrap:balance}
+h1 em{font-style:normal;color:var(--accent)}
+.sub{margin:10px 0 0;max-width:52ch;color:var(--ink-soft);font-size:14.5px}
+.stats{display:flex;gap:22px}
+.stat b{display:block;font-family:var(--mono);font-weight:700;font-size:23px;color:var(--accent);
+  font-variant-numeric:tabular-nums;line-height:1}
+.stat span{font-size:10px;text-transform:uppercase;letter-spacing:.09em;color:var(--ink-mute)}
+
+h2{font-family:var(--display);font-weight:600;font-size:18px;letter-spacing:-.01em;margin:0 0 4px}
+.lede{margin:0 0 18px;color:var(--ink-soft);font-size:13.5px;max-width:62ch}
+section{padding-block:34px}
+section + section{border-top:1px solid var(--rule)}
+
+/* ---- bars ---- */
+.bars{display:flex;flex-direction:column;gap:3px}
+.bar{display:grid;grid-template-columns:1fr 46px;gap:12px;align-items:center;padding:5px 8px;
+  border-radius:5px;cursor:default;position:relative}
+.bar:hover{background:var(--sunk)}
+.bar .lab{min-width:0;display:flex;flex-direction:column;gap:4px}
+.bar .txt{font-size:13.5px;line-height:1.35;overflow:hidden;text-overflow:ellipsis;
+  display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical}
+.track{height:7px;background:var(--sunk);border-radius:4px;overflow:hidden}
+.fill{height:100%;background:var(--accent);border-radius:0 4px 4px 0}
+.bar .v{font-family:var(--mono);font-weight:700;font-size:13px;color:var(--accent);
+  font-variant-numeric:tabular-nums;text-align:right}
+.tip{position:absolute;left:8px;bottom:calc(100% - 2px);background:var(--ink);color:var(--ground);
+  font-size:12px;padding:6px 9px;border-radius:5px;max-width:46ch;opacity:0;pointer-events:none;
+  transition:opacity .12s;z-index:5;line-height:1.4}
+.bar:hover .tip{opacity:1}
+
+/* ---- plus/minus ---- */
+.pm{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.pmh{font-family:var(--body);font-size:12px;text-transform:uppercase;letter-spacing:.09em;
+  font-weight:500;margin:0 0 8px;color:var(--accent)}
+.pmh.c{color:var(--crit)}
+.pm .fill{background:var(--accent)}
+.pm .c-bars .fill{background:var(--crit)}
+.pm .v{color:var(--accent)}
+.pm .c-bars .v{color:var(--crit)}
+.pct{font-family:var(--mono);font-size:10.5px;color:var(--ink-mute);margin-left:6px}
+@media (max-width:640px){.pm{grid-template-columns:1fr;gap:18px}}
+
+/* ---- filters ---- */
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:16px;
+  position:sticky;top:0;background:var(--ground);padding-block:12px;z-index:4;
+  border-bottom:1px solid var(--rule)}
+input[type=search]{font-family:var(--body);font-size:14px;padding:8px 12px;border-radius:6px;
+  border:1px solid var(--rule-strong);background:var(--raise);color:var(--ink);min-width:190px;flex:1}
+input[type=search]:focus-visible{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+.chip{font-family:var(--body);font-size:12.5px;padding:6px 11px;border-radius:20px;cursor:pointer;
+  border:1px solid var(--rule-strong);background:var(--raise);color:var(--ink-soft)}
+.chip:hover{border-color:var(--accent);color:var(--ink)}
+.chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--raise);font-weight:500}
+.chip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.count{font-size:12.5px;color:var(--ink-mute);font-family:var(--mono);margin-left:auto;
+  font-variant-numeric:tabular-nums}
+
+/* ---- cards ---- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(248px,1fr));gap:10px}
+.card{background:var(--raise);border:1px solid var(--rule);border-radius:8px;padding:13px 15px;
+  display:flex;flex-direction:column;gap:7px;border-left:3px solid var(--accent)}
+.card.mixed{border-left-color:var(--warn)}
+.card.neg{border-left-color:var(--crit)}
+.card .top{display:flex;gap:9px;align-items:baseline;justify-content:space-between}
+.card .nm{font-weight:700;font-size:14.5px;line-height:1.3}
+.card .mn{font-family:var(--mono);font-weight:700;font-size:12px;color:var(--accent);
+  white-space:nowrap;font-variant-numeric:tabular-nums}
+.card.mixed .mn{color:var(--warn)} .card.neg .mn{color:var(--crit)}
+.card .wh{font-size:12.5px;color:var(--ink-soft)}
+.card .qt{font-size:12.5px;color:var(--ink-soft);border-top:1px dashed var(--rule);padding-top:7px;
+  font-style:italic}
+.badge{align-self:flex-start;font-size:10.5px;text-transform:uppercase;letter-spacing:.07em;
+  font-weight:500;padding:2px 7px;border-radius:3px;background:var(--accent-weak);color:var(--accent)}
+.card.mixed .badge{background:var(--warn-weak);color:var(--warn)}
+.card.neg .badge{background:var(--crit-weak);color:var(--crit)}
+.empty{color:var(--ink-mute);font-size:14px;padding:26px 0}
+.sub{margin-bottom:20px}
+.sub h3{font-family:var(--body);font-size:11.5px;text-transform:uppercase;letter-spacing:.09em;
+  color:var(--ink-mute);font-weight:500;margin:0 0 8px;display:flex;align-items:center;gap:8px}
+.sub h3::after{content:"";flex:1;height:1px;background:var(--rule)}
+.sub h3 span{font-family:var(--mono);color:var(--accent);order:3}
+
+/* ---- facts ---- */
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:10px}
+.fact{background:var(--raise);border:1px solid var(--rule);border-radius:8px;padding:15px 17px}
+.fact h3{margin:0 0 7px;font-size:13px;font-weight:700}
+.fact p{margin:0;font-size:13.5px;color:var(--ink-soft)}
+.fact strong{color:var(--ink)}
+
+details{border-top:1px solid var(--rule);padding:12px 0}
+summary{cursor:pointer;font-size:14px;font-weight:500;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"+ ";color:var(--accent);font-family:var(--mono);font-weight:700}
+details[open] summary::before{content:"− "}
+details ul{margin:10px 0 0;padding-left:18px;font-size:13.5px;color:var(--ink-soft);
+  display:flex;flex-direction:column;gap:6px}
+footer{border-top:1px solid var(--rule);padding-block:20px 36px;color:var(--ink-mute);font-size:12px}
+
+@media (max-width:640px){
+  .filters{position:static}
+  .bar{grid-template-columns:1fr 40px}
+  .stats{gap:16px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head><body></body>
+<header><div class="wrap hd">
+  <div>
+    <h1>Чернівці <em>з перших вуст</em></h1>
+    <p class="sub">Що питають і що відповідають ті, хто сюди переїжджає. Зібрано з публічних
+    обговорень у Threads, травень 2025 — вересень 2026.</p>
+  </div>
+  <div class="stats">
+    <div class="stat"><b>885</b><span>відповідей</span></div>
+    <div class="stat"><b>32</b><span>обговорення</span></div>
+    <div class="stat"><b id="nItems">0</b><span>у базі</span></div>
+  </div>
+</div></header>
+
+<div class="wrap">
+
+  <section>
+    <h2>Про що питають найбільше</h2>
+    <p class="lede">Довжина смуги — кількість відповідей. Це карта потреб міста:
+    чим більше людей кинулись відповідати, тим гостріша тема.</p>
+    <div class="bars" id="bars"></div>
+  </section>
+
+  <section>
+    <h2>База відповідей</h2>
+    <p class="lede">Усе, що люди назвали — імена, заклади, місця. Мітка «згадок» показує,
+    скільки різних людей назвали те саме незалежно одне від одного.</p>
+    <div class="filters">
+      <input type="search" id="q" placeholder="Пошук: прізвище, заклад, вулиця…" aria-label="Пошук">
+      <button class="chip" id="sortBtn" aria-pressed="true">↓ за згадками</button>
+      <span class="count" id="cnt"></span>
+    </div>
+    <div class="filters" style="position:static;border:0;padding-top:0" id="catRow"></div>
+    <div class="filters" style="position:static;border:0;padding-top:0" id="verRow"></div>
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty" hidden>Нічого не знайшлось. Спробуй інше слово.</p>
+  </section>
+
+  <section>
+    <h2>Переїзд: що називають найчастіше</h2>
+    <p class="lede">Порахувала машина: скільки з <strong>282 відповідей</strong> у восьми гілках
+    про переїзд згадують кожну тему. Одна відповідь може потрапити в кілька.</p>
+    <div class="pm">
+      <div><h3 class="pmh c">Мінуси</h3><div class="bars" id="mBars"></div></div>
+      <div><h3 class="pmh">Плюси</h3><div class="bars" id="pBars"></div></div>
+    </div>
+    <div class="facts" style="margin-top:20px">
+      <div class="fact"><h3>Вода залежить від водозабору</h3>
+        <p>Від <strong>Дністровського</strong> — спальні, густонаселені райони — часто без води.
+        Від <strong>Прутського</strong> — Садгора, Калічанка, Рогізна — рідко, лише аварії.
+        Найконкретніше знання в усьому корпусі.</p></div>
+      <div class="fact"><h3>Житло: цифри</h3>
+        <p><strong>600–700 $</strong> і вище, дешевше лише околиці. Більшість оголошень —
+        без дітей і тварин, часто без договору. Ріелтори беруть 100% комісії.</p></div>
+      <div class="fact"><h3>Кобилянська — не для оренди</h3>
+        <p>Красива й центральна, але «спокою не буде». Те саме про будь-яку вулицю з транспортом.</p></div>
+      <div class="fact"><h3>Комендантська не страшна</h3>
+        <p>Uklon і Bolt працюють, поїздка через місто близько <strong>160 грн</strong>.
+        Люди підтверджують поїздки о 1:00 і 3:30.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <details><summary>Як це зібрано і чого тут бракує</summary>
+      <ul>
+        <li><strong>Покриття неповне.</strong> Під найбільшими обговореннями зібрано близько
+        третини відповідей — найпопулярніші теми представлені найгірше.</li>
+        <li><strong>Зріз у часі.</strong> Ціни, дороги, вода змінюються; дані за 16 місяців.</li>
+        <li><strong>Зміщення аудиторії.</strong> Threads в Україні — переважно жінки 25–40,
+        тому б'юті й дитяча тема густі, а автосервіс чи будівництво майже відсутні.</li>
+        <li><strong>Частина відповідей — самореклама.</strong> Найгустіше в адвокатах,
+        помітно в косметологах. У медичних гілках органічних порад більше.</li>
+        <li><strong>Це думки людей, не перевірені факти.</strong> Кількість згадок показує
+        поширеність думки, не якість послуги.</li>
+      </ul>
+    </details>
+  </section>
+
+</div>
+<footer class="wrap">Цитати належать їхнім авторам. Зібрано з публічних обговорень у Threads.</footer>
+
+<script>
+const Q=[
+ [246,"Порадьте справді хорошого гінеколога — пів року ходжу по лікарях","27 різних прізвищ в одній гілці. Найбільший відгук у корпусі."],
+ [175,"Мені трішки образливо за Чернівці — вони недооцінені туристично","Переросло у суперечку про порівняння зі Львовом і Одесою."],
+ [142,"Розкажіть про місто для переїзду. Про що мені потрібно знати?",""],
+ [130,"Який заклад для вас найгірший?","Негативне питання зібрало більше за «улюблений заклад» — 130 проти 97."],
+ [129,"Є тут хтось, хто переїхав у Чернівці? Як вам там?",""],
+ [123,"Хто переїхав у Чернівці? Плюси, мінуси?",""],
+ [111,"Хочу переїхати в Чернівці. Плюси мінуси?",""],
+ [108,"Підкажіть, куди ви їздите на один день відпочити?",""],
+ [97,"Який ваш улюблений заклад? Що порадите цікавого?",""],
+ [84,"Хто з вас теж переїхав у Чернівці з іншого міста?","Гілка перетворилась на біржу контактів майстрів і клієнтів."],
+ [79,"Порадьте хорошого репетитора з англійської",""],
+ [76,"Я переїжджаю у Чернівці — порадьте місця, ресторани, зали",""],
+ [54,"Який найгірший заклад — ресторан, кафе?",""],
+ [49,"Хто знає подібні локації в Че або за містом?",""]];
+
+const D=[
+// гінекологи
+["Коба Оксана Петрівна","Лікарі","гінеколог","Діагностичний центр",3,"rec","«з нею завагітніла за пів року свого безпліддя, яке клали всі інші». Жива черга"],
+["Маринчина Ірина Миколаївна","Лікарі","гінеколог","Базисмед",2,"rec","«делікатна під час огляду, пояснює призначення доступно»"],
+["Федів Віра Модестівна","Лікарі","гінеколог","Рівненська",2,"rec",""],
+["Мельничук Лариса Орестівна","Лікарі","гінеколог","вул. Шкільна",2,"rec",""],
+["Юзько Вікторія Олександрівна","Лікарі","гінеколог","YUZKO Medical Center",2,"rec","«на звʼязку навіть після прийому»"],
+["Бербець Андрій","Лікарі","гінеколог-ендокринолог","Перинатальний центр",1,"rec","«мої гормони в порядку — то його заслуга»"],
+["Гуменна Валентина Вікторівна","Лікарі","гінеколог","клініка Гінея",1,"rec",""],
+["Кікіріца Світлана Аврелівна","Лікарі","гінеколог","Секвоя, ЖК на Рівненській",1,"rec",""],
+["Андрійчук Людмила Василівна","Лікарі","гінеколог","Секвоя",1,"rec",""],
+["Ткачик Світлана Ярославівна","Лікарі","гінеколог","Секвоя",1,"rec",""],
+["Максіян Ольга Іполітівна","Лікарі","гінеколог","Діагностичний центр, зав. відділення",1,"rec",""],
+["Данилюк Олена Василівна","Лікарі","онколог-гінеколог","",1,"rec",""],
+["Водопянова Марія Вікторівна","Лікарі","гінеколог","Панацея, Паркова",1,"rec","«професійна лікарка і приємний персонал»"],
+["Нацюк Ольга Мирославівна","Лікарі","гінеколог","YUZKO, проспект",1,"rec",""],
+["Білозор Наталія Іванівна","Лікарі","гінеколог","",1,"rec",""],
+["Дорош Лариса","Лікарі","гінеколог","",1,"rec","«не втомлюсь писати під кожним подібним постом»"],
+["Нікіфор Лівія Василівна","Лікарі","гінеколог","Авіценна",1,"rec",""],
+["Боярчук Ірина Федорівна","Лікарі","гінеколог","Базис, ЖК на Рівненській",1,"rec",""],
+["Чайковська Сузанна Іллівна","Лікарі","гінеколог","ЖК на Головній",1,"rec",""],
+["Віта Вікторівна","Лікарі","гінеколог","Обласна лікарня",1,"rec",""],
+["Візнюк Інна Володимирівна","Лікарі","гінеколог","Діагностичний центр",1,"rec",""],
+["Кондря Олена Олександрівна","Лікарі","гінеколог","через Helsi, безкоштовно",1,"rec",""],
+["Ірина Теодорівна","Лікарі","гінеколог","Altero",1,"rec",""],
+// неврологи
+["Кіт Юлія Андріївна","Лікарі","невролог","Базисмед",2,"rec",""],
+["Єреміца Дмитро Іванович","Лікарі","невролог","Рівненська 5а, 3 поверх",2,"rec","«чудовий лікар і людина дуже хороша»"],
+["Доцюк Владислав Володимирович","Лікарі","невролог","Кардіологічний центр, Базисмед",2,"mixed","Одна рекомендація і одна різко негативна згадка в тій самій гілці"],
+["Холоденко М.","Лікарі","невролог","БазисМед",1,"rec","«компетентна»"],
+["Харитоненко Альбіна","Лікарі","невролог","Оксфорд Медікал, Воробкевича",1,"rec","Приймає по суботах і вівторках"],
+["Янішевська Ангеліна Олександрівна","Лікарі","невролог","Базис",1,"rec","«дуже грамотна»"],
+["Грушкевич Ірина","Лікарі","невролог","ТомКлінік",1,"rec",""],
+["Деркач Андрій Васильович","Лікарі","невролог","Ювента",1,"rec",""],
+["Клим Валентина Миколаївна","Лікарі","невролог","Базисмед",1,"rec",""],
+["Пасере Константин Константинович","Лікарі","невролог","Руська 279",1,"rec",""],
+["Александровська Людмила Миколаївна","Лікарі","офтальмолог-хірург","Базисмед",1,"rec","Вища категорія, приймає лише дорослих"],
+// косметологи
+["Бенца Катерина","Лікарі","косметолог","",4,"rec","«допомогла з периоральним дерматитом, коли інші призначали гормональні мазі. Другий рік ремісії»"],
+["Панків Карина","Лікарі","косметолог","",3,"rec","«професійна і привітна»"],
+["Мельник Анастасія","Лікарі","косметолог","skin advocates",1,"rec",""],
+["Дергач Людмила Омелянівна","Лікарі","косметолог","",1,"rec",""],
+["Бессараб Маріанна","Лікарі","косметолог","",1,"rec",""],
+["Королева Оксана","Лікарі","косметолог","",1,"rec",""],
+["Іващенко","Лікарі","косметолог","Лазерхауз",1,"rec",""],
+// клініки
+["Базисмед","Клініки","приватна","",8,"rec","Лідер згадок у всіх медичних гілках. Активно відповідає під постами сам"],
+["Секвоя","Клініки","приватна","",3,"rec",""],
+["YUZKO Medical Center","Клініки","приватна","проспект; вул. Владислава Трепка",3,"rec",""],
+["Авіценна","Клініки","приватна","",3,"mixed","Авторка найбільшого поста шукала лікаря саме «не в Авіценні». Інші рекомендують"],
+["Діагностичний центр","Клініки","державна","",4,"rec","Жива черга, але кілька людей кажуть, що воно того варте"],
+["Оксфорд Медікал","Клініки","приватна","Воробкевича",1,"rec",""],
+["Панацея","Клініки","приватна","Паркова",1,"rec",""],
+["Ювента","Клініки","приватна","",1,"rec",""],
+// заклади рекомендовані
+["Мальва","Заклади","піца, бутерброди","",5,"rec","«чернівецький портал мілленіалів: ми про неї знаємо, але в Тредсі не патякаємо»"],
+["Nonna Macarona","Заклади","італійська","Головна",7,"rec","Найчастіша згадка серед ресторанів. Радять ризото, особуко, тірамісу"],
+["Bacara","Заклади","кава, сніданки","",5,"mixed","«найкраще місце для сніданків, жодного інциденту» проти скарг на юрбу підлітків"],
+["Essco","Заклади","сніданки, кава","",4,"rec","«можливість складання своєї тарілки на сніданок»"],
+["Файно","Заклади","українська","",4,"mixed","«обожнюю» проти «не смачно, вареники просто −, норм тільки лаваш»"],
+["Панська гуральня","Заклади","українська","",4,"rec","«неймовірно смачний борщик»"],
+["Ресторація Хата","Заклади","українська, буковинська","",3,"rec","«єдине місце, де можна спробувати справді смачну буковинську начинку»"],
+["Джорджина","Заклади","грузинська","",3,"rec",""],
+["Gamarjoba","Заклади","грузинська","",3,"rec",""],
+["La Pasta","Заклади","італійська","",3,"rec","«дуже смачна паста з морепродуктами»"],
+["Bjork","Заклади","мʼясо, десерти","",3,"mixed","І в улюблених, і в антирейтингу одночасно"],
+["Хінкальня","Заклади","грузинська","Кобилянська; Небесної сотні",3,"mixed","Хвалять хінкалі й чачу; окремо лають обидві точки"],
+["Grotta Pizza","Заклади","піца","",2,"rec","«маргарита просто топ», лосось тар-тар, фрітелле з пармезаном"],
+["Di Bocca","Заклади","італійська","",2,"rec",""],
+["Крем Чіз","Заклади","десерти, кава","",3,"rec","«айс лате»"],
+["Марципан Бейкері","Заклади","випічка, кава","",2,"rec",""],
+["ГаннаШпет","Заклади","авторські десерти","",2,"rec","«класні авторські десерти і смачна арабіка»"],
+["Ріволлі","Заклади","ресторан","за містом",2,"rec","«хоч і за містом, але топ кухня»"],
+["Темо","Заклади","грузинська","Кобилянська",2,"mixed","«їх хінкалі це просто любов» — і водночас у списку найгірших"],
+["Рита Стейнберг","Заклади","єврейська, авторська","",2,"rec",""],
+["Чічері","Заклади","українська","",2,"rec",""],
+["Альвезувіо","Заклади","італійська","",2,"rec","«грибний крем-суп», «не дуже інстаграмно, зато неймовірно смачно»"],
+["Дім 18","Заклади","парові вареники","",2,"rec",""],
+["Broyt","Заклади","авторська","",2,"rec",""],
+["Парадізо","Заклади","піца","вул. Франка",2,"rec","«піца Кальцоне — майже 20 років фанат»"],
+["Горила Суші","Заклади","суші","",2,"rec","«після яких не треба шукати ентерол»"],
+["Mizumi","Заклади","азійська","у готелі",1,"rec",""],
+["Acropolis","Заклади","грецька","",1,"rec","«тримає греко-українська сімʼя»"],
+["Daddy Burger","Заклади","бургери","Січових Стрільців 6В",1,"rec",""],
+["Хочу","Заклади","бургери","біля Драмтеатру",1,"rec","«бургерами розбив мені серденько»"],
+["Чашка","Заклади","кава","центр",1,"rec",""],
+["Цукерник","Заклади","кавʼярня","",1,"rec",""],
+["Момент смаку","Заклади","боули","Кобилянська 10",1,"rec",""],
+["Мясоруб","Заклади","шашлик, реберця","",1,"rec",""],
+["Віденська кавʼярня","Заклади","десерти","",2,"mixed","«всі десерти» в рекомендаціях — і «з 4 різних десертів жодного смачного» в антирейтингу"],
+// антирейтинг
+["Abu Dhabi doner","Заклади","шаурма","",1,"neg","«отруїлись з друзями, 5 днів відходили»"],
+["Львівські круасани","Заклади","випічка","Кобилянська",2,"neg","«персонал ніби працює перший день»; «кожен рік постійно жорсткі отруєння»"],
+["KFC","Заклади","фастфуд","",2,"neg","«брудно на кухні, холодні бургери та дуже довго обслуговують»"],
+["Хрум Хрум","Заклади","кафе","",2,"neg","«більше півтори години очікували на салат, так і не дочекались; продали десерт з пліснявою»"],
+["TOFF","Заклади","ресторан","",2,"neg","«найжахливіше обслуговування, зіпсований настрій на святкуванні дня народження»"],
+["Оззі","Заклади","кафе","",2,"neg","«як не волосся в страві, так поліетиленова шкірка в крок-мадам»"],
+["Панорама","Заклади","ресторан","",1,"neg","«смак їжі жахливий і ціни космос»"],
+["Шошо","Заклади","піца, суші","мережа",3,"neg","«суші розвалювались, рис сирий»; критика з приміткою «мережа мера»"],
+["Чорні вівці","Заклади","кафе","",1,"neg","«надзвичайно спаскудились»"],
+["Гном","Заклади","фастфуд","",1,"neg","«раніше це був топ заклад для швидкого харчування»"],
+["Дон Густаво","Заклади","ресторан","",1,"neg",""],
+["Челентано","Заклади","піца","",1,"neg",""],
+["Пікантіко","Заклади","ресторан","",1,"neg",""],
+["Черноморка","Заклади","морепродукти","кінець Кобилянської",1,"neg",""],
+["Сушімастер","Заклади","суші","",1,"neg","«дешеві суші — це треш. Візьміть краще 2-3 роли нормальних»"],
+["Панжапан","Заклади","кафе","",1,"neg",""],
+["Бруно","Заклади","кафе","",1,"neg","«є дуже неприємні історії звідти»"],
+["Пікнік","Заклади","мʼясо","",2,"mixed","«супер і кухня, і обслуговування, і дизайн» проти «точно не в Пікнік, зовсім не смачно»"],
+// місця
+["Орлине гніздо","Місця","садиба, ресторан","",4,"rec","Найчастіша згадка серед виїздів на день"],
+["Джуринський водоспад","Місця","водоспад","",3,"rec","Найвищий рівнинний в Україні, поруч руїни палацу"],
+["Сонячна долина","Місця","озеро, пляж","",3,"rec","«платний пляж з газоном — чисто, культурно, за територією доглядають»"],
+["Мігово","Місця","гори, відпочинок","",2,"rec",""],
+["Соколине Око","Місця","оглядова точка","",2,"rec","Йти від водоспадів уздовж русла річки, потрібне нормальне взуття"],
+["Цецино","Місця","гора","15 хв від міста",2,"rec",""],
+["Гора Кохання","Місця","оглядова точка","",2,"rec",""],
+["Чорнівське озеро","Місця","озеро","від Садгори",1,"rec","«розчистили, набудували бесідок». Дорога з ямами, але місце атмосферне"],
+["Аква","Місця","комплекс","траса на Сторожинець",2,"rec",""],
+["Балія","Місця","комплекс","Шипинці",1,"rec","«дуже класний комплекс і дуже бюджетно»"],
+["Ozeria","Місця","озеро","біля Берегомета",1,"rec","«людей майже не було влітку, повітря як в горах»"],
+["Terra Cottage","Місця","садиба","Мігово",1,"rec",""],
+["Георг Парк","Місця","садиба","Тарашани",1,"rec",""],
+["Мальованка","Місця","фотолокація","",2,"rec",""],
+["Вербівці","Місця","оглядовий майданчик","",1,"rec",""],
+["Буковинські водоспади","Місця","водоспад","",1,"rec",""],
+["ЧНУ","Місця","університет, екскурсії","центр",4,"rec","Екскурсії щодня з 10:00 до 15:00, початок щогодини"],
+["Кобилянська","Місця","пішохідна вулиця","",5,"rec","Головна прогулянкова. Але жити на ній не радять — шумно"],
+["Парк Шевченка","Місця","парк","Головна",2,"rec","Поруч алея сакур"],
+["Музей просто неба","Місця","музей","",2,"rec",""],
+// спорт
+["Character Gym","Спорт","зал","",3,"rec","«новенький зал, крута команда»"],
+["Спортлайф","Спорт","зал","",2,"rec","Басейн і спа входять у базовий абонемент, перше тренування безкоштовне"],
+["Status Fitness","Спорт","зал","вул. Руська",2,"rec",""],
+["RJ Sport Club","Спорт","зал","",2,"rec",""],
+["Fizcultura","Спорт","зал","",1,"rec",""],
+["Vip Gym","Спорт","зал","Південно-кільцева 7А",1,"rec",""],
+["sveta.hoi","Спорт","тренерка","Fizcultura",2,"rec","«працює конкретно по вашому запиту»"],
+["antonspizh","Спорт","тренер","",1,"rec","«зробив мене на 28 кг меншою, підтягнутою»"],
+["yuliagavatyk","Спорт","тренерка","Status Fitness",1,"rec",""],
+["fit.by.sasha","Спорт","тренерка","",1,"rec",""],
+["pavlo_remizov","Спорт","тренер","hard&smart",1,"neg","«як тренер не раджу, сумнівний підхід до тренувань і концепція залу»"],
+["Даша","Спорт","танці JAZZ-FUNK","пр. Незалежності 106, БЦ Гіга",1,"rec","Групові пн/ср/пт 19:00, є індивідуальні"],
+// послуги
+["Олена","Послуги","колорист, 25 років досвіду","Руська 229б, baza beauty Sofi",1,"rec","0668187559. Працює з важкими випадками, консультація і тест-пасмо безкоштовні"],
+["super_mayster_group","Послуги","ремонт","",1,"neg","«терміни зросли в 2 рази, ціна вийшла не така, про яку домовлялись, якість просто дно»"],
+["prorab_online","Послуги","прораб","",1,"mixed","Питали відгуки — відповіді не було"],
+["domashniy_master_cv","Послуги","майстер","",1,"rec",""],
+["Поляк і партнери","Послуги","адвокати","",1,"rec","«тільки Поляк і партнери»"],
+["alya_ivaniuk","Послуги","адвокатка","",1,"rec","«краща з кращих»"],
+["Ретекс","Послуги","секонд","Миколайчука 9",1,"rec","«мій улюблений»"],
+["Комод","Послуги","секонд","Щептицького",1,"rec","На вагу, іноді є цікаві речі"],
+["Ринок на Ентузіастах","Послуги","бв ринок","",1,"rec",""],
+["Обнова","Послуги","секонд","Винниченка",1,"neg","«ваговий відділ прикрили і всьо, немає улюбленого секонда»"],
+["Калинівський ринок","Послуги","ринок","",3,"rec","«не недооцінюйте базар, там купа всього»"],
+["ЄХБ, Ковельський 25","Послуги","житло для ВПО","",1,"rec","Безкоштовне житло для ВПО, без тварин. Центр румуномовних церков"]
+];
+
+const CATS=["Лікарі","Клініки","Заклади","Місця","Спорт","Послуги"];
+const VERS=[["rec","рекомендують"],["mixed","суперечливо"],["neg","антирейтинг"]];
+let fCat=null, fVer=null, sortByMentions=true;
+
+const max=Math.max(...Q.map(q=>q[0]));
+document.getElementById("bars").innerHTML=Q.map(([n,t,note])=>`
+  <div class="bar">
+    ${note?`<span class="tip">${note}</span>`:""}
+    <div class="lab"><div class="txt">${t}</div>
+      <div class="track"><div class="fill" style="width:${Math.round(n/max*100)}%"></div></div></div>
+    <div class="v">${n}</div>
+  </div>`).join("");
+
+// плюси й мінуси переїзду — реальні частоти по 282 відповідях у 8 гілках
+const MOVE_N=282;
+const MINUS=[[50,"Дороги"],[31,"Вода"],[22,"Житло: дорого й мало"],[15,"Дитяча інфраструктура"],
+ [13,"Менталітет місцевих"],[12,"Світло, блекаути"],[7,"Транспорт у місті"],[6,"Паркування"],
+ [6,"Бруд, занедбаність"],[3,"Немає масмаркету"],[2,"Бездомні собаки"]];
+const PLUS=[[33,"Тиша й безпека"],[28,"Заклади та кухня"],[23,"Природа поруч"],
+ [17,"Архітектура, краса"],[11,"Компактність"],[11,"Близько Румунія і Карпати"],
+ [8,"Європейські товари й ринки"]];
+function pmBars(el,data,cls){
+  const m=Math.max(...data.map(d=>d[0]));
+  el.className="bars"+(cls?" "+cls:"");
+  el.innerHTML=data.map(([n,t])=>`
+    <div class="bar">
+      <div class="lab"><div class="txt">${t}<span class="pct">${Math.round(n/MOVE_N*100)}%</span></div>
+        <div class="track"><div class="fill" style="width:${Math.round(n/m*100)}%"></div></div></div>
+      <div class="v">${n}</div>
+    </div>`).join("");
+}
+pmBars(document.getElementById("mBars"),MINUS,"c-bars");
+pmBars(document.getElementById("pBars"),PLUS,"");
+
+const catN=c=>D.filter(r=>r[1]===c).length;
+const verN=v=>D.filter(r=>r[5]===v).length;
+document.getElementById("catRow").innerHTML=
+  `<button class="chip" data-cat="" aria-pressed="true">всі · ${D.length}</button>`+
+  CATS.map(c=>`<button class="chip" data-cat="${c}" aria-pressed="false">${c} · ${catN(c)}</button>`).join("");
+document.getElementById("verRow").innerHTML=
+  `<button class="chip" data-ver="" aria-pressed="true">будь-який вердикт</button>`+
+  VERS.map(([k,l])=>`<button class="chip" data-ver="${k}" aria-pressed="false">${l} · ${verN(k)}</button>`).join("");
+
+function render(){
+  const term=document.getElementById("q").value.trim().toLowerCase();
+  let rows=D.filter(r=>{
+    if(fCat&&r[1]!==fCat)return false;
+    if(fVer&&r[5]!==fVer)return false;
+    if(term&&!(r[0]+" "+r[2]+" "+r[3]+" "+r[6]).toLowerCase().includes(term))return false;
+    return true;
+  });
+  rows.sort((a,b)=>sortByMentions?(b[4]-a[4])||a[0].localeCompare(b[0],"uk"):a[0].localeCompare(b[0],"uk"));
+  const card=r=>`
+    <article class="card ${r[5]==="rec"?"":r[5]}">
+      <div class="top"><div class="nm">${r[0]}</div>
+        <div class="mn">${r[4]}×</div></div>
+      ${r[3]?`<div class="wh">${r[2]} · ${r[3]}</div>`:`<div class="wh">${r[2]}</div>`}
+      <span class="badge">${VERS.find(v=>v[0]===r[5])[1]}</span>
+      ${r[6]?`<div class="qt">${r[6]}</div>`:""}
+    </article>`;
+  const grid=document.getElementById("grid");
+  // всередині обраної категорії групуємо за спеціальністю — інакше 40 карток злипаються
+  if(fCat&&rows.length>6){
+    const g=new Map();
+    rows.forEach(r=>{const k=r[2]||"інше"; if(!g.has(k))g.set(k,[]); g.get(k).push(r);});
+    const parts=[...g.entries()].sort((a,b)=>b[1].length-a[1].length);
+    grid.className="";
+    grid.innerHTML=parts.map(([k,rs])=>
+      `<div class="sub"><h3>${k}<span>${rs.length}</span></h3>
+        <div class="grid">${rs.map(card).join("")}</div></div>`).join("");
+  }else{
+    grid.className="grid";
+    grid.innerHTML=rows.map(card).join("");
+  }
+  document.getElementById("cnt").textContent=rows.length+" з "+D.length;
+  document.getElementById("empty").hidden=rows.length>0;
+  // стан у адресі — зручність, не функція: на file:// і data: replaceState кидає
+  // SecurityError, і без try/catch він зупиняв увесь рендер
+  try{
+    const h=[fCat?"c="+encodeURIComponent(fCat):"",fVer?"v="+fVer:"",
+      term?"q="+encodeURIComponent(term):""].filter(Boolean).join("&");
+    history.replaceState(null,"",h?"#"+h:location.pathname);
+  }catch(e){}
+}
+document.getElementById("nItems").textContent=D.length;
+// стан у адресі: відфільтрований вигляд можна переслати посиланням
+(function restore(){
+  const p=new URLSearchParams(location.hash.slice(1));
+  if(p.get("c")&&CATS.includes(p.get("c")))fCat=p.get("c");
+  if(p.get("v")&&VERS.some(v=>v[0]===p.get("v")))fVer=p.get("v");
+  if(p.get("q"))document.getElementById("q").value=p.get("q");
+  document.querySelectorAll("[data-cat]").forEach(x=>
+    x.setAttribute("aria-pressed",(x.dataset.cat||null)===fCat));
+  document.querySelectorAll("[data-ver]").forEach(x=>
+    x.setAttribute("aria-pressed",(x.dataset.ver||null)===fVer));
+})();
+document.getElementById("q").addEventListener("input",render);
+document.getElementById("catRow").addEventListener("click",e=>{
+  const b=e.target.closest("[data-cat]"); if(!b)return;
+  fCat=b.dataset.cat||null;
+  [...document.querySelectorAll("[data-cat]")].forEach(x=>x.setAttribute("aria-pressed",x===b));
+  render();
+});
+document.getElementById("verRow").addEventListener("click",e=>{
+  const b=e.target.closest("[data-ver]"); if(!b)return;
+  fVer=b.dataset.ver||null;
+  [...document.querySelectorAll("[data-ver]")].forEach(x=>x.setAttribute("aria-pressed",x===b));
+  render();
+});
+document.getElementById("sortBtn").addEventListener("click",e=>{
+  sortByMentions=!sortByMentions;
+  e.target.textContent=sortByMentions?"↓ за згадками":"А–Я за назвою";
+  e.target.setAttribute("aria-pressed",sortByMentions);
+  render();
+});
+render();
+</script>
+</body></html>
