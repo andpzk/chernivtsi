@@ -92,7 +92,31 @@
       ],
       "terms": [
         "коба оксана петрівна"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@aleksandrovna.1996/post/Dc3pnoSDCtI",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-04"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@angelikaonischuk/post/Dc3Z1_ojcv7",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-04"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@alina_shlemko/post/Dc9NJ15DY3V",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        }
+      ],
+      "positive": 3,
+      "positive_authors": 3,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Маринчина Ірина Миколаївна": {
       "reply_count": 5,
@@ -107,7 +131,43 @@
       "terms": [
         "маринчина ірина миколаївна",
         "маринчина"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@keyeruna/post/Dc1C0wvDbF6",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-03"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@manuelahavryliuk/post/Dc1YWvciAjB",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@natali_voitsih/post/Dc1DJHmCPeZ",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@semenko.alina/post/Dc8QMKUjqfN",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@la__myrka/post/Dc4FuYtjEwW",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        }
+      ],
+      "positive": 5,
+      "positive_authors": 5,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Федів Віра Модестівна": {
       "reply_count": 1,
@@ -118,7 +178,12 @@
       "terms": [
         "федів віра модестівна",
         "федів"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Мельничук Лариса Орестівна": {
       "reply_count": 8,
@@ -136,7 +201,31 @@
       "terms": [
         "мельничук лариса орестівна",
         "мельничук"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@ksyshaglas/post/Dc1obs3Cpac",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@tatyana52945/post/Dc6uFo3jild",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@grettabeukh/post/Dc4IOLZjjET",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        }
+      ],
+      "positive": 3,
+      "positive_authors": 3,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Юзько Вікторія Олександрівна": {
       "reply_count": 12,
@@ -158,7 +247,25 @@
       "terms": [
         "юзько вікторія олександрівна",
         "юзько"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@negryh.marina/post/Dc6fNtcADLJ",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@m_marija67/post/Dc_BUltEbJU",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        }
+      ],
+      "positive": 2,
+      "positive_authors": 2,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Бербець Андрій": {
       "reply_count": 2,
@@ -170,7 +277,25 @@
       "terms": [
         "бербець андрій",
         "бербець"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@lr_wien_/post/Dc9iQv_DLF8",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-06"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@lr_wien_/post/Dc9iEC3DAx_",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        }
+      ],
+      "positive": 2,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Гуменна Валентина Вікторівна": {
       "reply_count": 7,
@@ -187,7 +312,37 @@
       "terms": [
         "гуменна валентина вікторівна",
         "гуменна"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@annakavtseniuk/post/Dc9RkXfjIBz",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@annatalma/post/Dc370bIjbDw",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@nadiakostyniuk/post/Dc4Kp_8F_FM",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@svetka.mur/post/Dc51jZujkgB",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        }
+      ],
+      "positive": 4,
+      "positive_authors": 4,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Кікіріца Світлана Аврелівна": {
       "reply_count": 1,
@@ -198,7 +353,12 @@
       "terms": [
         "кікіріца світлана аврелівна",
         "кікіріца"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Андрійчук Людмила Василівна": {
       "reply_count": 8,
@@ -216,7 +376,31 @@
       "terms": [
         "андрійчук людмила василівна",
         "андрійчук"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@k.frunze/post/Dc4KyXwjukc",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-04"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@annakelba/post/Dc5dC_ziEgD",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@marina_havryshchuk_20/post/Dc3w5FHDe1s",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        }
+      ],
+      "positive": 3,
+      "positive_authors": 3,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Ткачик Світлана Ярославівна": {
       "reply_count": 2,
@@ -228,7 +412,19 @@
       "terms": [
         "ткачик світлана ярославівна",
         "ткачик"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@shustovochka/post/Dc6tgt2DUKJ",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-05"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Максіян Ольга Іполітівна": {
       "reply_count": 2,
@@ -240,7 +436,12 @@
       "terms": [
         "максіян ольга іполітівна",
         "максіян"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Данилюк Олена Василівна": {
       "reply_count": 2,
@@ -252,7 +453,19 @@
       "terms": [
         "данилюк олена василівна",
         "данилюк"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@oliatashpulatova/post/DdD5sPdDD9g",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Водопянова Марія Вікторівна": {
       "reply_count": 2,
@@ -264,7 +477,25 @@
       "terms": [
         "водопянова марія вікторівна",
         "водопянова"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@mama_milaa/post/Dc15pYNDS-J",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-03"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@prohorowa_anna/post/Dc77vKXiM6i",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        }
+      ],
+      "positive": 2,
+      "positive_authors": 2,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Нацюк Ольга Мирославівна": {
       "reply_count": 2,
@@ -276,7 +507,12 @@
       "terms": [
         "нацюк ольга мирославівна",
         "нацюк"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Білозор Наталія Іванівна": {
       "reply_count": 2,
@@ -288,7 +524,12 @@
       "terms": [
         "білозор наталія іванівна",
         "білозор"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Дорош Лариса": {
       "reply_count": 6,
@@ -304,7 +545,19 @@
       "terms": [
         "дорош лариса",
         "дорош"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@chris_________________tina/post/Dc1nQoCDPCk",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-03"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Нікіфор Лівія Василівна": {
       "reply_count": 2,
@@ -316,7 +569,25 @@
       "terms": [
         "нікіфор лівія василівна",
         "нікіфор"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@marishav3/post/Dc8gZEKiFWG",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-06"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@ne_legalnaya/post/DdAAR-KDPVf",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        }
+      ],
+      "positive": 2,
+      "positive_authors": 2,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Боярчук Ірина Федорівна": {
       "reply_count": 1,
@@ -327,7 +598,19 @@
       "terms": [
         "боярчук ірина федорівна",
         "боярчук"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@kristi_bogdanyuk/post/Dc1qAQ6iA8v",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-03"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Чайковська Сузанна Іллівна": {
       "reply_count": 2,
@@ -339,7 +622,19 @@
       "terms": [
         "чайковська сузанна іллівна",
         "чайковська"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@alesia__sergeevna_/post/Dc-6cRtEXf1",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-07"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Віта Вікторівна": {
       "reply_count": 4,
@@ -352,7 +647,31 @@
       ],
       "terms": [
         "віта вікторівна"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@ksenechka_damian/post/DdBaJR8jYr1",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@___anastasiiia.s___/post/Dc6vIZlkfZR",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@vika_vatamaniuk/post/Dc7JEd9iI35",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        }
+      ],
+      "positive": 3,
+      "positive_authors": 3,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Візнюк Інна Володимирівна": {
       "reply_count": 2,
@@ -364,7 +683,19 @@
       "terms": [
         "візнюк інна володимирівна",
         "візнюк"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@yana_onyshchuk_/post/Dc_59ZPDR7o",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Кондря Олена Олександрівна": {
       "reply_count": 1,
@@ -375,7 +706,19 @@
       "terms": [
         "кондря олена олександрівна",
         "кондря"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@mariya_bilohurova/post/Dc6OTXKiKyi",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-05"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Ірина Теодорівна": {
       "reply_count": 16,
@@ -401,7 +744,25 @@
       "terms": [
         "ірина теодорівна",
         "ірина"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@makarrova.n/post/Dc262XSCFvc",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-04"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@luna_plhn/post/Dc30DVGiIwO",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        }
+      ],
+      "positive": 2,
+      "positive_authors": 2,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Кіт Юлія Андріївна": {
       "reply_count": 1,
@@ -411,7 +772,12 @@
       ],
       "terms": [
         "кіт юлія андріївна"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Єреміца Дмитро Іванович": {
       "reply_count": 2,
@@ -423,7 +789,12 @@
       "terms": [
         "єреміца дмитро іванович",
         "єреміца"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Доцюк Владислав Володимирович": {
       "reply_count": 4,
@@ -437,7 +808,19 @@
       "terms": [
         "доцюк владислав володимирович",
         "доцюк"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@natusya_igorivna/post/Dc_8MdpHIfz",
+          "summary": "Автор не радить звертатися до цього лікаря; причину не пояснює.",
+          "date": "2026-09-07"
+        }
+      ],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 1,
+      "negative_authors": 1
     },
     "Холоденко М.": {
       "reply_count": 1,
@@ -448,7 +831,19 @@
       "terms": [
         "холоденко м",
         "холоденко"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@natusya_igorivna/post/Dc_8MdpHIfz",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-07"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Харитоненко Альбіна": {
       "reply_count": 1,
@@ -459,7 +854,19 @@
       "terms": [
         "харитоненко альбіна",
         "харитоненко"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@natusya_igorivna/post/Dc_8MdpHIfz",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-07"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Янішевська Ангеліна Олександрівна": {
       "reply_count": 1,
@@ -470,7 +877,12 @@
       "terms": [
         "янішевська ангеліна олександрівна",
         "янішевська"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Грушкевич Ірина": {
       "reply_count": 1,
@@ -481,7 +893,19 @@
       "terms": [
         "грушкевич ірина",
         "грушкевич"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@bodnariuchka/post/Dc_22zHCFRH",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-07"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Деркач Андрій Васильович": {
       "reply_count": 1,
@@ -492,7 +916,12 @@
       "terms": [
         "деркач андрій васильович",
         "деркач"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Клим Валентина Миколаївна": {
       "reply_count": 1,
@@ -502,7 +931,12 @@
       ],
       "terms": [
         "клим валентина миколаївна"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Пасере Константин Константинович": {
       "reply_count": 1,
@@ -513,7 +947,12 @@
       "terms": [
         "пасере константин константинович",
         "пасере"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Александровська Людмила Миколаївна": {
       "reply_count": 1,
@@ -524,7 +963,12 @@
       "terms": [
         "александровська людмила миколаївна",
         "александровська"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Бенца Катерина": {
       "reply_count": 1,
@@ -535,7 +979,19 @@
       "terms": [
         "бенца катерина",
         "бенца"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@mrs.fugelo/post/DV4JzECl_FC",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-03-14"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Мельник Анастасія": {
       "reply_count": 1,
@@ -546,7 +1002,19 @@
       "terms": [
         "мельник анастасія",
         "мельник"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@julieneviviene/post/DV1o2OMDdOS",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-03-13"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Дергач Людмила Омелянівна": {
       "reply_count": 1,
@@ -557,7 +1025,12 @@
       "terms": [
         "дергач людмила омелянівна",
         "дергач"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Бессараб Маріанна": {
       "reply_count": 1,
@@ -568,7 +1041,19 @@
       "terms": [
         "бессараб маріанна",
         "бессараб"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@marjana_anatolievna/post/DV208RQjFEh",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-03-14"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Королева Оксана": {
       "reply_count": 1,
@@ -579,7 +1064,12 @@
       "terms": [
         "королева оксана",
         "королева"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Іващенко": {
       "reply_count": 1,
@@ -590,7 +1080,12 @@
       "terms": [
         "іващенко",
         "іващенко"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Базисмед": {
       "reply_count": 10,
@@ -611,7 +1106,19 @@
         "базис мед",
         "базисмед",
         "базис"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@ivanovaparaska/post/Dc1mXgGCkPd",
+          "summary": "Автор негативно оцінює відповідальність клініки; подробиць не наводить.",
+          "date": "2026-09-03"
+        }
+      ],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 1,
+      "negative_authors": 1
     },
     "Секвоя": {
       "reply_count": 11,
@@ -631,7 +1138,19 @@
       ],
       "terms": [
         "секвоя"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@andrianassh/post/DdBuG5GjboF",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "YUZKO Medical Center": {
       "reply_count": 22,
@@ -663,7 +1182,37 @@
       "terms": [
         "юзько",
         "yuzko"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@angel_kotelevets/post/Dc9Ql3Cguri",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@negryh.marina/post/Dc6fNtcADLJ",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@sssanxjssb/post/Dc2wxnLDZsm",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@dianaviktorivna3869/post/Dc9ZfK_EQ7b",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": ""
+        }
+      ],
+      "positive": 4,
+      "positive_authors": 4,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Діагностичний центр": {
       "reply_count": 3,
@@ -675,7 +1224,12 @@
       ],
       "terms": [
         "діагностичний центр"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Оксфорд Медікал": {
       "reply_count": 2,
@@ -686,7 +1240,12 @@
       ],
       "terms": [
         "оксфорд медікал"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Панацея": {
       "reply_count": 1,
@@ -696,7 +1255,19 @@
       ],
       "terms": [
         "панацея"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@mama_milaa/post/Dc15pYNDS-J",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-03"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Ювента": {
       "reply_count": 1,
@@ -706,7 +1277,12 @@
       ],
       "terms": [
         "ювента"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Мальва": {
       "reply_count": 7,
@@ -722,7 +1298,25 @@
       ],
       "terms": [
         "мальва"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@dr.valeria.vilkhovetska/post/Dcv0r0CDLq2",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-01"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@pavlinahoriuk/post/DcHO4UNjuAR",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-16"
+        }
+      ],
+      "positive": 2,
+      "positive_authors": 2,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Nonna Macarona": {
       "reply_count": 15,
@@ -748,7 +1342,49 @@
         "нонна",
         "nonna",
         "нона макарона"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@nata.prosperis/post/DcIv_9VjqZf",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-17"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@ttnmltk/post/DUUDcqCgnEP",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-03"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@dr.sunichuk/post/DWOv1PElyP4",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-03-23"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@natania.psy/post/DcI-mLhimPQ",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-17"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@pavlinahoriuk/post/DcHO4UNjuAR",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-16"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@dr.iryna.shcherbata/post/DY4aYB2jRLJ",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-05-28"
+        }
+      ],
+      "positive": 6,
+      "positive_authors": 6,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Bacara": {
       "reply_count": 8,
@@ -766,7 +1402,19 @@
       "terms": [
         "bacara",
         "бакара"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@natania.psy/post/DcI-mLhimPQ",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-17"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Essco": {
       "reply_count": 5,
@@ -782,7 +1430,25 @@
         "essco",
         "еско",
         "есско"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@ttnmltk/post/DUUDcqCgnEP",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-03"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@tasha_tkhir/post/DUWXVKHDEB5",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-04"
+        }
+      ],
+      "positive": 2,
+      "positive_authors": 2,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Файно": {
       "reply_count": 6,
@@ -797,7 +1463,37 @@
       ],
       "terms": [
         "файно"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@n_shafer_/post/DUSQo0WDJBq",
+          "summary": "Автору не сподобався смак страв, зокрема вареників.",
+          "date": "2026-02-03"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@ttnmltk/post/DUUDcqCgnEP",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-03"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@mvicdem/post/DUZavA5Au6q",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-06"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@tetiana_vlasova_/post/DdLbFdPDUkI",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-12"
+        }
+      ],
+      "positive": 3,
+      "positive_authors": 3,
+      "negative": 1,
+      "negative_authors": 1
     },
     "Панська гуральня": {
       "reply_count": 6,
@@ -812,7 +1508,37 @@
       ],
       "terms": [
         "панська гуральня"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@ttnmltk/post/DUUDcqCgnEP",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-03"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@i7777am/post/DcHSxR0kUy0",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-16"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@iakovenkosvetlana3/post/DX48Um2iFDQ",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-05-03"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@i7777am/post/DdKXqA_iJLe",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-11"
+        }
+      ],
+      "positive": 4,
+      "positive_authors": 3,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Ресторація Хата": {
       "reply_count": 3,
@@ -824,7 +1550,25 @@
       ],
       "terms": [
         "ресторація хата"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@i7777am/post/DcHSxR0kUy0",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-16"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@i7777am/post/DdKXqA_iJLe",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-11"
+        }
+      ],
+      "positive": 2,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Джорджина": {
       "reply_count": 3,
@@ -836,7 +1580,19 @@
       ],
       "terms": [
         "джорджина"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@nata.prosperis/post/DcIv_9VjqZf",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-17"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Gamarjoba": {
       "reply_count": 2,
@@ -847,7 +1603,19 @@
       ],
       "terms": [
         "gamarjoba"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@ttnmltk/post/DUUDcqCgnEP",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-03"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "La Pasta": {
       "reply_count": 2,
@@ -858,7 +1626,19 @@
       ],
       "terms": [
         "la pasta"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@yulia_inst3_/post/DXWX3cPAlzi",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-04-20"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Bjork": {
       "reply_count": 5,
@@ -874,7 +1654,37 @@
         "bjork",
         "бйорк",
         "бьорк"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@ttnmltk/post/DUUDcqCgnEP",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-03"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@tasha_tkhir/post/DUWXVKHDEB5",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-04"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@bohdan.k.s/post/DWM6cnXDMKA",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-03-22"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@klapiichuk_ylia/post/DX42z0cDa23",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-05-03"
+        }
+      ],
+      "positive": 4,
+      "positive_authors": 4,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Хінкальня": {
       "reply_count": 6,
@@ -889,7 +1699,25 @@
       ],
       "terms": [
         "хінкальня"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@ttnmltk/post/DUUA_IZAhf_",
+          "summary": "Автор негативно описує враження від кількох закладів; точний контекст — у відповіді.",
+          "date": "2026-02-03"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@roman.dum/post/DUTyD1qjfCb",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-03"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 1,
+      "negative_authors": 1
     },
     "Grotta Pizza": {
       "reply_count": 3,
@@ -901,7 +1729,25 @@
       ],
       "terms": [
         "grotta pizza"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@tasha_tkhir/post/DUWXVKHDEB5",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-04"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@mvicdem/post/DUZYys_AtAQ",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-06"
+        }
+      ],
+      "positive": 2,
+      "positive_authors": 2,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Di Bocca": {
       "reply_count": 2,
@@ -912,7 +1758,19 @@
       ],
       "terms": [
         "di bocca"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@natania.psy/post/DcI-mLhimPQ",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-17"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Крем Чіз": {
       "reply_count": 2,
@@ -923,7 +1781,19 @@
       ],
       "terms": [
         "крем чіз"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@_natalia_bd_/post/DcJIJ4tADE5",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-17"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Марципан Бейкері": {
       "reply_count": 1,
@@ -933,7 +1803,19 @@
       ],
       "terms": [
         "марципан бейкері"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@tania_mtskl/post/DX4wbs8lFxy",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-05-03"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "ГаннаШпет": {
       "reply_count": 2,
@@ -944,7 +1826,25 @@
       ],
       "terms": [
         "ганнашпет"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@sofi_palii/post/DWJ_sLRjMNo",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-03-21"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@sofi_palii/post/DUVC1KKDGqx",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-04"
+        }
+      ],
+      "positive": 2,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Ріволлі": {
       "reply_count": 2,
@@ -955,7 +1855,19 @@
       ],
       "terms": [
         "ріволлі"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@inka_nastas/post/DUXn9jJjYt3",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-05"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Темо": {
       "reply_count": 2,
@@ -966,7 +1878,19 @@
       ],
       "terms": [
         "темо"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@kassshtanka/post/DX43-oBguYW",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-05-03"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Рита Стейнберг": {
       "reply_count": 1,
@@ -976,7 +1900,19 @@
       ],
       "terms": [
         "рита стейнберг"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@nata.prosperis/post/DcIv_9VjqZf",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-17"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Чічері": {
       "reply_count": 1,
@@ -986,7 +1922,12 @@
       ],
       "terms": [
         "чічері"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Альвезувіо": {
       "reply_count": 2,
@@ -997,7 +1938,25 @@
       ],
       "terms": [
         "альвезувіо"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@alina.hontsa/post/DUY0tqbjI1_",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-05"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@tasha_tkhir/post/DUWXVKHDEB5",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-04"
+        }
+      ],
+      "positive": 2,
+      "positive_authors": 2,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Дім 18": {
       "reply_count": 2,
@@ -1008,7 +1967,19 @@
       ],
       "terms": [
         "дім 18"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@_sirius_ukraine/post/DX5ACKMjr8f",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-05-03"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Broyt": {
       "reply_count": 2,
@@ -1019,7 +1990,25 @@
       ],
       "terms": [
         "broyt"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@nata.prosperis/post/DcIv_9VjqZf",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-17"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@marina_kalinchuk0809/post/DUUvVKKjj6I",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-04"
+        }
+      ],
+      "positive": 2,
+      "positive_authors": 2,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Парадізо": {
       "reply_count": 2,
@@ -1030,7 +2019,25 @@
       ],
       "terms": [
         "парадізо"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@irina_sannikova/post/DUYgm_eDS1P",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-05"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@kristina__semenovich/post/DUUEWrujDbC",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-03"
+        }
+      ],
+      "positive": 2,
+      "positive_authors": 2,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Горила Суші": {
       "reply_count": 1,
@@ -1040,7 +2047,19 @@
       ],
       "terms": [
         "горила суші"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@bohdan.k.s/post/DWM6cnXDMKA",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-03-22"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Acropolis": {
       "reply_count": 1,
@@ -1050,7 +2069,19 @@
       ],
       "terms": [
         "acropolis"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@yuliatatarin/post/DX5ENKJkuvy",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-05-03"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Daddy Burger": {
       "reply_count": 1,
@@ -1060,7 +2091,12 @@
       ],
       "terms": [
         "daddy burger"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Хочу": {
       "reply_count": 16,
@@ -1085,7 +2121,25 @@
       ],
       "terms": [
         "хочу"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@yulia_inst3_/post/DXWX3cPAlzi",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-04-20"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@marina_parasolka/post/DUT5B9IDetM",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-03"
+        }
+      ],
+      "positive": 2,
+      "positive_authors": 2,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Чашка": {
       "reply_count": 2,
@@ -1096,7 +2150,12 @@
       ],
       "terms": [
         "чашка"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Момент смаку": {
       "reply_count": 1,
@@ -1106,7 +2165,12 @@
       ],
       "terms": [
         "момент смаку"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Мясоруб": {
       "reply_count": 1,
@@ -1116,7 +2180,19 @@
       ],
       "terms": [
         "мясоруб"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@i7777am/post/DdKXqA_iJLe",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-11"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Віденська кавʼярня": {
       "reply_count": 1,
@@ -1126,7 +2202,12 @@
       ],
       "terms": [
         "віденська кавʼярня"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Abu Dhabi doner": {
       "reply_count": 1,
@@ -1136,7 +2217,19 @@
       ],
       "terms": [
         "abu dhabi doner"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@sollovyovae/post/DUUHP6LCO8c",
+          "summary": "Автор повідомляє про погане самопочуття після їжі; причинний зв’язок не перевірено.",
+          "date": "2026-02-03"
+        }
+      ],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 1,
+      "negative_authors": 1
     },
     "Львівські круасани": {
       "reply_count": 2,
@@ -1147,7 +2240,19 @@
       ],
       "terms": [
         "львівські круасани"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@katerina_atmunova/post/Dam_d3iCFoa",
+          "summary": "Автор критикує роботу персоналу на Кобилянській.",
+          "date": "2026-07-10"
+        }
+      ],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 1,
+      "negative_authors": 1
     },
     "KFC": {
       "reply_count": 1,
@@ -1157,7 +2262,19 @@
       ],
       "terms": [
         "kfc"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@mashagamasha85/post/DUTtgb-jRxs",
+          "summary": "Автор скаржиться на чистоту, холодні бургери та тривале обслуговування.",
+          "date": "2026-02-03"
+        }
+      ],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 1,
+      "negative_authors": 1
     },
     "Хрум Хрум": {
       "reply_count": 2,
@@ -1168,7 +2285,25 @@
       ],
       "terms": [
         "хрум хрум"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@perepadaaa/post/DUVobqsiDy4",
+          "summary": "Автор скаржиться на довге очікування й стан десерту.",
+          "date": "2026-02-04"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@ttnmltk/post/DUUDcqCgnEP",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-02-03"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 1,
+      "negative_authors": 1
     },
     "TOFF": {
       "reply_count": 2,
@@ -1179,7 +2314,25 @@
       ],
       "terms": [
         "toff"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@tasha_tkhir/post/DUUDZT7DDaH",
+          "summary": "Автор скаржиться на обслуговування під час святкування.",
+          "date": "2026-02-03"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@nata.prosperis/post/DcIv_9VjqZf",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-17"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 1,
+      "negative_authors": 1
     },
     "Оззі": {
       "reply_count": 2,
@@ -1190,7 +2343,19 @@
       ],
       "terms": [
         "оззі"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@uporotaja/post/DaluEiVCB1l",
+          "summary": "Автор повідомляє про сторонні предмети у стравах.",
+          "date": "2026-07-09"
+        }
+      ],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 1,
+      "negative_authors": 1
     },
     "Панорама": {
       "reply_count": 2,
@@ -1201,7 +2366,19 @@
       ],
       "terms": [
         "панорама"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@7mashkka7/post/DanYBvlDJtz",
+          "summary": "Автору не сподобалися смак їжі та співвідношення ціни й якості.",
+          "date": "2026-07-10"
+        }
+      ],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 1,
+      "negative_authors": 1
     },
     "Шошо": {
       "reply_count": 7,
@@ -1217,7 +2394,37 @@
       ],
       "terms": [
         "шошо"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@ttnmltk/post/DUUA_IZAhf_",
+          "summary": "Автор негативно описує враження від кількох закладів; точний контекст — у відповіді.",
+          "date": "2026-02-03"
+        },
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@_ezhevi4ka__/post/DalmwQxACvU",
+          "summary": "Автору не сподобався заклад; конкретних причин не вказано.",
+          "date": "2026-07-09"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@alenyshka.kh/post/DcHrvozCJ31",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-16"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@chuieva_jenny/post/DcHUETkjHnp",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-16"
+        }
+      ],
+      "positive": 2,
+      "positive_authors": 2,
+      "negative": 2,
+      "negative_authors": 2
     },
     "Чорні вівці": {
       "reply_count": 2,
@@ -1228,7 +2435,19 @@
       ],
       "terms": [
         "чорні вівці"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@beermen1/post/DUTaZVliCeY",
+          "summary": "Автор вважає, що заклад став гіршим; подробиць не наводить.",
+          "date": "2026-02-03"
+        }
+      ],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 1,
+      "negative_authors": 1
     },
     "Дон Густаво": {
       "reply_count": 5,
@@ -1242,7 +2461,19 @@
       ],
       "terms": [
         "дон густаво"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@kkarolina_ugc/post/DUVmQJMDPlx",
+          "summary": "Автор називає заклад найгіршим для себе, без конкретних причин.",
+          "date": ""
+        }
+      ],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 1,
+      "negative_authors": 1
     },
     "Челентано": {
       "reply_count": 1,
@@ -1252,7 +2483,12 @@
       ],
       "terms": [
         "челентано"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Пікантіко": {
       "reply_count": 1,
@@ -1262,7 +2498,12 @@
       ],
       "terms": [
         "пікантіко"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Черноморка": {
       "reply_count": 1,
@@ -1272,7 +2513,12 @@
       ],
       "terms": [
         "черноморка"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Сушімастер": {
       "reply_count": 1,
@@ -1282,7 +2528,19 @@
       ],
       "terms": [
         "сушімастер"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@igorgontyuk/post/DalbzWZAvoi",
+          "summary": "Автор негативно оцінює смак дешевих наборів суші.",
+          "date": "2026-07-09"
+        }
+      ],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 1,
+      "negative_authors": 1
     },
     "Панжапан": {
       "reply_count": 1,
@@ -1292,7 +2550,12 @@
       ],
       "terms": [
         "панжапан"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Бруно": {
       "reply_count": 3,
@@ -1304,7 +2567,25 @@
       ],
       "terms": [
         "бруно"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@ttnmltk/post/DUUA_IZAhf_",
+          "summary": "Автор негативно описує враження від кількох закладів; точний контекст — у відповіді.",
+          "date": "2026-02-03"
+        },
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@nnastaaa/post/DUT4u_2CGyh",
+          "summary": "Автор згадує неприємний досвід без подробиць.",
+          "date": "2026-02-03"
+        }
+      ],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 2,
+      "negative_authors": 2
     },
     "Пікнік": {
       "reply_count": 2,
@@ -1315,7 +2596,25 @@
       ],
       "terms": [
         "пікнік"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@svitlana_gospodinova/post/DX6Tv4XjJkL",
+          "summary": "Автору не сподобався смак їжі.",
+          "date": "2026-05-04"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@v.rudkovskyy/post/Dam8v9yDVnk",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-07-10"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 1,
+      "negative_authors": 1
     },
     "Орлине гніздо": {
       "reply_count": 4,
@@ -1328,7 +2627,31 @@
       ],
       "terms": [
         "орлине гніздо"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@iren_chernii/post/DXmPgRtCG-U",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-04-26"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@mvicdem/post/DXmRPttFxPb",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-04-26"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@natania.psy/post/DcI-mLhimPQ",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-17"
+        }
+      ],
+      "positive": 3,
+      "positive_authors": 3,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Джуринський водоспад": {
       "reply_count": 2,
@@ -1339,7 +2662,12 @@
       ],
       "terms": [
         "джуринський водоспад"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Сонячна долина": {
       "reply_count": 1,
@@ -1349,7 +2677,12 @@
       ],
       "terms": [
         "сонячна долина"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Соколине Око": {
       "reply_count": 1,
@@ -1359,7 +2692,12 @@
       ],
       "terms": [
         "соколине око"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Цецино": {
       "reply_count": 2,
@@ -1370,7 +2708,12 @@
       ],
       "terms": [
         "цецино"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Гора Кохання": {
       "reply_count": 2,
@@ -1381,7 +2724,12 @@
       ],
       "terms": [
         "гора кохання"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Чорнівське озеро": {
       "reply_count": 1,
@@ -1391,7 +2739,19 @@
       ],
       "terms": [
         "чорнівське озеро"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@__tianka___/post/DXpmLo1CK3D",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-04-27"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Аква": {
       "reply_count": 2,
@@ -1402,7 +2762,12 @@
       ],
       "terms": [
         "аква"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Балія": {
       "reply_count": 2,
@@ -1413,7 +2778,25 @@
       ],
       "terms": [
         "балія"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@kuzenko_olenka/post/DXm1pPFjIgt",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-04-26"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@alenyshka.kh/post/DcHrvozCJ31",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-16"
+        }
+      ],
+      "positive": 2,
+      "positive_authors": 2,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Ozeria": {
       "reply_count": 1,
@@ -1423,7 +2806,19 @@
       ],
       "terms": [
         "ozeria"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@__tianka___/post/DXpn8xjCBvu",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-04-27"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Георг Парк": {
       "reply_count": 2,
@@ -1434,7 +2829,12 @@
       ],
       "terms": [
         "георг парк"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Мальованка": {
       "reply_count": 2,
@@ -1445,7 +2845,12 @@
       ],
       "terms": [
         "мальованка"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Вербівці": {
       "reply_count": 1,
@@ -1455,7 +2860,12 @@
       ],
       "terms": [
         "вербівці"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Буковинські водоспади": {
       "reply_count": 1,
@@ -1465,7 +2875,12 @@
       ],
       "terms": [
         "буковинські водоспади"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "ЧНУ": {
       "reply_count": 9,
@@ -1484,7 +2899,55 @@
       "terms": [
         "чну",
         "університет"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@kutsenkoirina2102/post/DQeenJsCD99",
+          "summary": "Автор висловлює занепокоєння станом будівлі університету.",
+          "date": ""
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@tecasych/post/DcW3C8xjc0r",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-22"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@ekaterina_roud/post/Dcy9aN7jVuc",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-02"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@i7777am/post/DcHSxR0kUy0",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-16"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@vladyslav.dihtiarenko/post/DcJt3Pwgoay",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-17"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@dr.iryna.shcherbata/post/DY4aYB2jRLJ",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-05-28"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@taya.tsurkan9/post/DdKLYzbjB2H",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-11"
+        }
+      ],
+      "positive": 6,
+      "positive_authors": 6,
+      "negative": 1,
+      "negative_authors": 1
     },
     "Кобилянська": {
       "reply_count": 28,
@@ -1521,7 +2984,37 @@
       ],
       "terms": [
         "кобилянськ"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@apollinarya_makovskya/post/DcXtmyvCLea",
+          "summary": "Автор не радить орендувати житло на вулиці через шум.",
+          "date": "2026-08-23"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@tecasych/post/DcW3C8xjc0r",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-22"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@dr.iryna.shcherbata/post/DY4aYB2jRLJ",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-05-28"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@julia_chopchyk/post/DY4It6njl_m",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-05-28"
+        }
+      ],
+      "positive": 3,
+      "positive_authors": 3,
+      "negative": 1,
+      "negative_authors": 1
     },
     "Парк Шевченка": {
       "reply_count": 1,
@@ -1531,7 +3024,19 @@
       ],
       "terms": [
         "парк шевченка"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@alenyshka.kh/post/DcHrvozCJ31",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-16"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Музей просто неба": {
       "reply_count": 2,
@@ -1542,7 +3047,19 @@
       ],
       "terms": [
         "музей просто неба"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@lukavetski_ph/post/DYc314Ojlix",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-05-17"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Character Gym": {
       "reply_count": 2,
@@ -1554,7 +3071,12 @@
       "terms": [
         "character",
         "характер"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Спортлайф": {
       "reply_count": 2,
@@ -1567,7 +3089,25 @@
         "спортлайф",
         "sportlife",
         "спорт лайф"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@foksolenka/post/DcXGhoTCr0A",
+          "summary": "Автор висловлює невдоволення клубом у контексті сімейного відпочинку.",
+          "date": "2026-08-22"
+        },
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@olha__struts/post/Db8osapiNmW",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-12"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 1,
+      "negative_authors": 1
     },
     "Fizcultura": {
       "reply_count": 1,
@@ -1577,7 +3117,12 @@
       ],
       "terms": [
         "fizcultura"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Vip Gym": {
       "reply_count": 1,
@@ -1587,7 +3132,12 @@
       ],
       "terms": [
         "vip gym"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "sveta.hoi": {
       "reply_count": 2,
@@ -1598,7 +3148,19 @@
       ],
       "terms": [
         "sveta hoi"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@nimrod.st/post/Db8xiPXjAW_",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-12"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "antonspizh": {
       "reply_count": 1,
@@ -1608,7 +3170,19 @@
       ],
       "terms": [
         "antonspizh"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@ohh_dayanaaa/post/Db-NohzCNzj",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-13"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "yuliagavatyk": {
       "reply_count": 1,
@@ -1618,7 +3192,19 @@
       ],
       "terms": [
         "yuliagavatyk"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@olgayuvtchenko/post/Db8ezXGjVVK",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-12"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "fit.by.sasha": {
       "reply_count": 1,
@@ -1628,7 +3214,19 @@
       ],
       "terms": [
         "fit by sasha"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@tatianaia3/post/Db96LajF-q4",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-13"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "pavlo_remizov": {
       "reply_count": 1,
@@ -1638,7 +3236,12 @@
       ],
       "terms": [
         "pavlo_remizov"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Даша": {
       "reply_count": 2,
@@ -1649,7 +3252,12 @@
       ],
       "terms": [
         "даша"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Олена": {
       "reply_count": 11,
@@ -1669,7 +3277,12 @@
       ],
       "terms": [
         "олена"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "super_mayster_group": {
       "reply_count": 1,
@@ -1679,7 +3292,19 @@
       ],
       "terms": [
         "super_mayster_group"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "negative",
+          "url": "https://www.threads.com/@moneaux_4933__malcolm/post/DciX-jqiNf5",
+          "summary": "Автор скаржиться на строки, зміну вартості та якість робіт.",
+          "date": "2026-08-27"
+        }
+      ],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 1,
+      "negative_authors": 1
     },
     "prorab_online": {
       "reply_count": 1,
@@ -1689,7 +3314,12 @@
       ],
       "terms": [
         "prorab_online"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "domashniy_master_cv": {
       "reply_count": 1,
@@ -1699,7 +3329,12 @@
       ],
       "terms": [
         "domashniy_master_cv"
-      ]
+      ],
+      "reviews": [],
+      "positive": 0,
+      "positive_authors": 0,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Поляк і партнери": {
       "reply_count": 1,
@@ -1709,7 +3344,19 @@
       ],
       "terms": [
         "поляк і партнери"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@harlandkasten/post/DctvpSXDYQn",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-31"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "alya_ivaniuk": {
       "reply_count": 1,
@@ -1719,7 +3366,19 @@
       ],
       "terms": [
         "alya_ivaniuk"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@nastia.shtogrynets/post/DcvuOERjDuB",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-09-01"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Ретекс": {
       "reply_count": 1,
@@ -1729,7 +3388,19 @@
       ],
       "terms": [
         "ретекс"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@annazeffir/post/DcVHVbMguv3",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-22"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     },
     "Калинівський ринок": {
       "reply_count": 1,
@@ -1739,8 +3410,25 @@
       ],
       "terms": [
         "калинівський ринок"
-      ]
+      ],
+      "reviews": [
+        {
+          "polarity": "positive",
+          "url": "https://www.threads.com/@alenyshka.kh/post/DcHrvozCJ31",
+          "summary": "Автор позитивно оцінює або рекомендує цю назву. Деталі — в оригінальній відповіді.",
+          "date": "2026-08-16"
+        }
+      ],
+      "positive": 1,
+      "positive_authors": 1,
+      "negative": 0,
+      "negative_authors": 0
     }
   },
-  "collection": "Existing archive; no fresh collection"
+  "collection": "Existing archive; no fresh collection",
+  "sentiment": {
+    "reviewed_replies": 300,
+    "classified_entity_reviews": 155,
+    "method": "AI-assisted contextual review of existing matched replies; explicit sentiment only; allegations not independently verified"
+  }
 }
